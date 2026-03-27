@@ -4,7 +4,7 @@
   "projects": {
     "swaraja": {
       "projectType": "application",
-      "root": "swaraja",
+      "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
