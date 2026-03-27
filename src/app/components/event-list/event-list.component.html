@@ -3,6 +3,6 @@
     <h3>{{ event.title }}</h3>
     <p>{{ event.date | date:'fullDate' }}</p>
     <p>{{ event.description }}</p>
-    <a [routerLink]="['/event', event.id]" class="event-detail-link">View Details</a>
+    <a [routerLink]="['/events', event.id]" class="event-detail-link">View Details</a>
   </li>
 </ul>
