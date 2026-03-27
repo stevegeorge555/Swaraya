@@ -1,13 +1,7 @@
 {
-  "version": 1,
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "commands": {
-      "build": "ng build --prod"
-    }
-  },
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "./dist/swaraya",
   "routes": [
     {
       "src": "/(.*)",
